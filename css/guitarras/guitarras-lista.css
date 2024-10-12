@@ -1,0 +1,44 @@
+.guitarras-lista {
+    padding-top: 60px;
+    padding-bottom: 120;
+}
+
+.guitarras-lista h2 {
+    margin-bottom: 40px;
+    box-sizing: border-box;
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.guitarras-lista a {
+    display: block;
+
+}
+
+.guitarras-lista img {
+    margin-bottom: 16px;
+
+}
+
+.guitarras-lista h3 {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+
+}
+
+.guitarras-lista h3::before {
+    content: "";
+    display: inline-block;
+    height: 8px;
+    width: 12px;
+    margin-right: 8px;
+    background-color: var(-cor-p1);
+}
+
+.guitarras-lista li span {
+    padding-left: 20px;
+}
