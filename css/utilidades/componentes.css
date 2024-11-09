@@ -1,3 +1,13 @@
+
+.container {
+    box-sizing: border-box;
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .botao {
     display: inline-block;
     padding: 16px 32px;
@@ -22,3 +32,46 @@
         font-size: 16px;
     }
 }
+
+/* titulo internas */
+.titulo-bg {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--cor-11);
+  }
+  
+  .titulo p {
+    margin-bottom: 4px;
+  }
+  
+  @media (max-width: 800px) {
+    .titulo-bg {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+    .titulo p {
+      font-size: 1rem;
+      text-transform: lowercase;
+      font-weight: 400;
+    }
+  }
+
+  .termos {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  
+  .termos h2 {
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .termos p + h2 {
+    margin-top: 40px;
+  }
+  
+  .termos p {
+    max-width: 75ch;
+    margin-bottom: 24px;
+  }
+  
