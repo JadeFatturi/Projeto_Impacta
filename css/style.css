@@ -8,6 +8,7 @@
 
 
 @import "./utilidades/componentes.css";
+@import "./utilidades/formulario.css";
 
 @import "./home/introducao.css";
 @import "./home/parceiros.css";
@@ -15,6 +16,13 @@
 
 @import "./guitarras/guitarras-lista.css";
 @import "./guitarras/guitarras.css";
+
+@import "./guitarra/guitarra.css";
+
+@import "./contato/contato.css";
+@import "./contato/lojas.css";
+
+@import "./orcamento/orcamento.css";
 
 
 @import "./guitarras/termos.css";
